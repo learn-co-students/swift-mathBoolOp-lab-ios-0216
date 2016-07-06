@@ -17,36 +17,53 @@
 ### 1. Add two Doubles
 */
 // write your code here
+ let numberOne = 2.5
+let numberTwo = 2.5
 
+numberOne + numberTwo
 
 /*: Question 2
 ### 2. Add an Int to a Double
 */
 // write your code here
 
+//let a = 1
+//let b = 2.5
+//
+//let productOfAAndB = a + Int(b)
+
+
+
 
 /*: Question 3
 ### 3. Compare two Ints for equality
 */
 // write your code here
-
+ 3 == 3
 
 /*: Question 4
 ### 4. Compare two Doubles for equality
 */
 // write your code here
 
+2.5 == 2.5
 
 /*: Question 5
 ### 5. Compare an Int and a Double equality
 */
 // write your code here
 
+let x = 1
+let y = 2.5
+
+x == Int(y)
 
 /*: Question 6
 ### 6. Compare 3 and 3.5 for equality (NB what do you have to be mindful of in this case?)
 */
 // write your code here
+3 <= Int(3.5)
+
 
 
 /*: Question 7
@@ -54,11 +71,23 @@
 */
 // write your code here
 
+3 <= Int(3.5)
+
+Int(6.1) <= 7
 
 /*: Question 8
 ### 8. Write code expressing "if a less than b or x is greater than or equal to y"
 */
 // write your code here
+let a = 1
+let b = 2
+let x = 5
+let y = 10
+
+a < b
+x >= y
+
+
 
 
 /*: Question 9
